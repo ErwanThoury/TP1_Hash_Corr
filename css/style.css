@@ -1,0 +1,38 @@
+body {
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+.login-container {
+    margin-top: 10%;
+}
+
+.card {
+    background-color: #1c1c1c;
+    border: none;
+}
+
+.card-header {
+    background-color: #ff9900;
+    color: #000;
+}
+
+.btn-primary {
+    background-color: #ff9900;
+    border-color: #ff9900;
+}
+
+.btn-primary:hover {
+    background-color: #e68a00;
+    border-color: #e68a00;
+}
+
+.card-footer a {
+    color: #ff9900;
+    
+}
+
+.card-footer a:hover {
+    color: #e68a00;
+    text-decoration: underline;
+}
