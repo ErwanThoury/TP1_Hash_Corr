@@ -19,10 +19,8 @@
         $password = $_POST['password'];
 
         // Ajout du sel : combinaison du nom d'utilisateur avec "az"
-        
-        $salt = $username . 'az';
 
-        $password = hash('sha3-256', $salt.$password);
+        $password = hash('sha3-256', $password);
 
         // Préparation et exécution de la requête
         $stmt = $pdo->prepare("SELECT * FROM user WHERE Username = :username AND Password = :password");
