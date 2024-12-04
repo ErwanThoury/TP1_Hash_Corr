@@ -18,7 +18,7 @@
         $username = $_POST['username'];
         $password = $_POST['password'];
 
-        // Ajout du sel : combinaison du nom d'utilisateur avec "az"
+        // Ajout du sel avant le mot de passe entré : combinaison du nom d'utilisateur avec "az"
 
         $password = hash('sha3-256', $password);
 
